@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Title</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div id="top-bar">
+            <img src="images/Logo.png" alt="Logo" width="60px">
+            <h1>Unreal Watches</h1>
+            <a href=""><img src="images/User.png" alt="User icon" width="40px"></a>
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#Intro" class="navlink">Home</a></li>
+                <li><a href="#Description" class="navlink">About</a></li>
+                <li><a href="#footer-top" class="navlink">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Main -->
+    <main>
+        <section id="Intro">
+
+            <div id="intro-text">
+                <h1>Watches so well-made</h1>
+                <h1>it's almost as if they</h1>
+                <h1>don't exist</h1>
+            </div>
+
+        </section>
+        <section id="Description">
+
+            <div class="desc-top">
+                <h1>Watches of higest quality.</h1>
+            </div>
+            <div id="left-text">
+                <div class="desc-text">
+                    <p>Our watches are made by the most skillful watchmakers from all over the world,
+                        using only the highest quality materials.</p>
+                </div>
+                <div class="picture-set">
+                    <div class="set-picture"><img src="images/watch-2.jpg" width="300px"></div>
+                    <div class="set-picture"><img src="images/watch-1.jpg" width="300px"></div>
+                    <div class="set-picture"><img src="images/watch-3.jpg" width="300px"></div>
+                </div>
+            </div>
+            <div class="desc-top">
+                <h1>Unbelievable precision.</h1>
+            </div>
+            <div id="right-text">
+                <div id="looped-set">
+                    <video autoplay muted loop id="watch-loop" width="500px">
+                        <source src="images/watch-loop.mp4" type="video/mp4">
+                    </video>
+                    <video autoplay muted loop id="watch-loop-2" width="500px">
+                        <source src="images/watch-loop-2.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="desc-text">
+                    <p>Never be late again with one of our watches. They are masterfully put together and are never
+                        wrong.</p>
+                </div>
+
+            </div>
+
+        </section>
+        <section id="Video">
+            <div id="video-text">
+                <h1>Watch assembly</h1>
+            </div>
+
+            <div id="video-player">
+                <iframe width="720" height="480" src="https://www.youtube.com/embed/AppMkUnatf0" title="Watch assembly"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+        </section>
+        <section id="Shop">
+            <div id="shop-left">
+                <h1>Check out our shop!</h1>
+                <button id="shop-button">SHOP</button>
+            </div>
+            <div id="shop-bar"></div>
+            <div id="custom-right">
+                <h1>Watch giveaway singup:</h1>
+                <form action="/action_page.php" id="form">
+                    <label for="fname">Name:</label>
+                    <input type="text" id="entry" name="name" value="">
+                    <label for="lname">Email:</label>
+                    <input type="email" id="entry" name="email" value="">
+                    <label for="watch-check">Do you own a Watch?:</label>
+                    <select id="watch-check" name="watch-check">
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                    <input type="submit" value="Submit" id="submit">
+                </form>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <div id="footer-top">
+            <div>
+                <h3>Contact</h3>
+                <div id="footer-seperator"></div>
+                <ul>
+                    <li>Website: <a href="" target="_blank">RealWebsite</a></li>
+                    <li>Phone: 123-4567</li>
+                    <li><a href="mailto:veryrealemail@veryreal.com">Send Email</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Location</h3>
+                <div id="footer-seperator"></div>
+                <p>404 Big Street<br>
+                    Small Way, City 12345</p>
+            </div>
+
+            <div>
+                <h3>Legal</h3>
+                <div id="footer-seperator"></div>
+                <ul>
+                    <li>Terms of Use</li>
+                    <li>Privacy Policy</li>
+                    <li>Terms of Sale</li>
+                </ul>
+            </div>
+            
+        </div>
+        <div id="footer-bottom">
+            <div id="bottom-left"><small>&copy; Copyright 2022 ZN | All Rights Reserved</small></div>
+            <div id="bottom-right"><a href="https://github.com" target="_blank"><img src="images/GitHub.png" alt="GitHub"
+                height="30px"></a></div>
+        </div>
+
+    </footer>
+</body>
+
+</html>
