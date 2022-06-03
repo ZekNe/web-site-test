@@ -64,7 +64,6 @@ header{
     margin-top: 90px;
 }
 
-
 #intro-text h1 {
     display: flex;
     justify-content: center;
@@ -298,6 +297,5 @@ footer li{
 
 footer p{
     font-size: 25px;
-    width:300px;
-    
+    width:300px;   
 }
