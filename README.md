@@ -3,6 +3,3 @@
 ---
 
 Learning HTML/CSS/JS.
-
-
-
